@@ -1,0 +1,4 @@
+#!/bin/sh
+cp -r /var/mobile/Library/BossPrefs/webplugin /System/Library/Internet\ Plug-Ins/File\ Download\ Plugin.webplugin 
+rm -rf /var/mobile/Library/BossPrefs/webplugin
+/usr/bin/killall MobileSafari
